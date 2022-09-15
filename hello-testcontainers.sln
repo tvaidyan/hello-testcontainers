@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-testcontainers", "hello-testcontainers\hello-testcontainers.csproj", "{6B02DA8C-372A-43EF-9D48-0FF57ADA84DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-testcontainers.tests", "hello-testcontainers.tests\hello-testcontainers.tests.csproj", "{4DA16CD9-B467-447E-AE7B-DEA2E93AA874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B02DA8C-372A-43EF-9D48-0FF57ADA84DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B02DA8C-372A-43EF-9D48-0FF57ADA84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B02DA8C-372A-43EF-9D48-0FF57ADA84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B02DA8C-372A-43EF-9D48-0FF57ADA84DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA16CD9-B467-447E-AE7B-DEA2E93AA874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA16CD9-B467-447E-AE7B-DEA2E93AA874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA16CD9-B467-447E-AE7B-DEA2E93AA874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA16CD9-B467-447E-AE7B-DEA2E93AA874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

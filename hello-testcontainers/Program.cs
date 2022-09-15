@@ -23,3 +23,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+// Changing the implicit access modifier of "internal" to "public" for WebApplicationFactory based integration testing
+// More info, here: https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-6.0
+public partial class Program { }
